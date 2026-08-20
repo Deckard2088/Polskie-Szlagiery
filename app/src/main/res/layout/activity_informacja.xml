@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformacjaActivity"
+    android:background="@color/jasny_niebieski"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/kolotla8"
+        android:layout_width="650dp"
+        android:layout_height="650dp"
+        android:src="@drawable/kolo1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <ImageView
+        android:id="@+id/kolotla9"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/kolo2"
+        app:layout_constraintBottom_toTopOf="@+id/informacja"
+        app:layout_constraintEnd_toStartOf="@+id/informacja"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8"></ImageView>
+
+    <ImageView
+        android:id="@+id/kolotla10"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/kolo2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/informacja"
+        app:layout_constraintVertical_bias="0.35000002"></ImageView>
+
+    <TextView
+        android:id="@+id/informacja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:gravity="center"
+        android:text="@string/infoOKartach"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guzikWroc2"></TextView>
+
+    <ImageButton
+        android:id="@+id/guzikWroc2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/iks"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageButton>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

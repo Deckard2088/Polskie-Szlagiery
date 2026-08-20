@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.budiyev.android.codescanner.CodeScannerView
+        android:id="@+id/scanner_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:autoFocusButtonColor="@color/jaśniutki_niebieski"
+        app:autoFocusButtonVisible="true"
+        app:flashButtonColor="@color/jaśniutki_niebieski"
+        app:flashButtonVisible="true"
+        app:frameColor="@color/jaśniutki_niebieski"
+        app:frameCornersSize="60dp"
+        app:frameCornersRadius="18dp"
+        app:frameAspectRatioWidth="1"
+        app:frameAspectRatioHeight="1"
+        app:frameSize="0.75"
+        app:frameThickness="8dp"
+        app:frameVerticalBias="0.5"
+        app:maskColor="#77000000"
+        app:autoFocusButtonPaddingHorizontal="300dp"
+        app:flashButtonPosition="topStart"/>
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/guzikWroc3"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/iks"
+        android:layout_gravity="top|end"
+        android:layout_margin="14dp"
+        ></ImageButton>
+
+</FrameLayout>

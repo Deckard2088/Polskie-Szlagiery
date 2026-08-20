@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Polskie Szlagiery</string>
+    <string name="instrukcja">Jeśli posiadasz płatne konto Spotify, wybierz opcję Spotify Premium.
+    W przeciwnym wypadku wybierz opcję Spotify Free.</string>
+    <string name="infoOKartach">Granie w Polskie Szlagiery wymaga fizycznego posiadania kart.\n
+    Aby uzyskać do nich dostęp należy kliknąć przycisk \nPOBIERZ PLIK Z KARTAMI,\n który prowadzi do
+    pliku w formacie PDF zawierającym wspomniane karty.\n\n
+
+    Karty należy pobrać, a następnie wydrukować samodzielnie lub skorzystać z usułg firmy specjalizującej
+    się w drukowaniu karcianych dodatków do gier (np. MB Print).\n
+        Karty są dwustronne, w związku z czym zostały przygotowane jako kolejne strony w pliku na przemian: awers
+        karty nr 1, rewers karty nr 1, awers karty nr 2, rewers karty nr 2, awers karty nr 3, itd.\n
+        Ich rozmiar to w domyśle \n62 mm x 62 mm jednak ze względu na spad drukarski ich wymiar został
+        poszerzony w pliku o 6 mm \n(68 mm x 68 mm).\n\n
+
+    Na dzień 26.08.2024 talia ma 76 kart, lecz niewykluczone, że w przyszłości zostanie wzbogacona o
+    kolejne utwory.</string>
+</resources>
