@@ -12,36 +12,39 @@
         android:id="@+id/kolotla5"
         android:layout_width="500dp"
         android:layout_height="500dp"
+        android:importantForAccessibility="no"
         android:src="@drawable/kolo1"
         app:layout_constraintBottom_toBottomOf="@+id/instrukcja"
         app:layout_constraintEnd_toStartOf="@+id/instrukcja"
         app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.55"></ImageView>
+        app:layout_constraintVertical_bias="0.55" />
 
     <ImageView
         android:id="@+id/kolotla6"
         android:layout_width="350dp"
         android:layout_height="350dp"
+        android:importantForAccessibility="no"
         android:src="@drawable/kolo2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/buttonSP"
         app:layout_constraintHorizontal_bias="0.27"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonSP"
-        app:layout_constraintVertical_bias="0.64"></ImageView>
+        app:layout_constraintVertical_bias="0.64" />
 
     <ImageView
         android:id="@+id/kolotla7"
         android:layout_width="250dp"
         android:layout_height="250dp"
+        android:importantForAccessibility="no"
         android:src="@drawable/kolo1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/buttonSF"
         app:layout_constraintTop_toTopOf="@+id/buttonSF"
-        app:layout_constraintVertical_bias="0.53"></ImageView>
+        app:layout_constraintVertical_bias="0.53" />
 
     <TextView
         android:id="@+id/instrukcja"
@@ -51,11 +54,11 @@
         android:gravity="center"
         android:text="@string/instrukcja"
         android:textColor="@color/white"
-        android:textSize="28dp"
+        android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/guzikWroc"></TextView>
+        app:layout_constraintTop_toBottomOf="@+id/guzikWroc" />
 
     <Button
         android:id="@+id/buttonSF"
@@ -67,9 +70,9 @@
         android:padding="20dp"
         android:text="Spotify Free"
         android:textColor="@color/black"
-        android:textSize="28dp"
+        android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/instrukcja"></Button>
+        app:layout_constraintTop_toBottomOf="@+id/instrukcja" />
 
     <Button
         android:id="@+id/buttonSP"
@@ -80,9 +83,9 @@
         android:padding="20dp"
         android:text="Spotify Premium"
         android:textColor="@color/black"
-        android:textSize="28dp"
+        android:textSize="28sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonSF"></Button>
+        app:layout_constraintTop_toBottomOf="@+id/buttonSF" />
 
     <ImageButton
         android:id="@+id/guzikWroc"
@@ -91,9 +94,10 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:background="@android:color/transparent"
+        android:importantForAccessibility="no"
         android:scaleType="fitXY"
         android:src="@drawable/iks"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></ImageButton>
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

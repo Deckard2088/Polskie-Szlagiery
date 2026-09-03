@@ -30,10 +30,10 @@
         android:layout_height="30dp"
         android:id="@+id/guzikWroc3"
         android:background="@android:color/transparent"
+        android:importantForAccessibility="no"
         android:scaleType="fitXY"
         android:src="@drawable/iks"
         android:layout_gravity="top|end"
-        android:layout_margin="14dp"
-        ></ImageButton>
+        android:layout_margin="14dp" />
 
 </FrameLayout>

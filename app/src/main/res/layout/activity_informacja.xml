@@ -12,35 +12,38 @@
         android:id="@+id/kolotla8"
         android:layout_width="650dp"
         android:layout_height="650dp"
+        android:importantForAccessibility="no"
         android:src="@drawable/kolo1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></ImageView>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/kolotla9"
         android:layout_width="400dp"
         android:layout_height="400dp"
+        android:importantForAccessibility="no"
         android:src="@drawable/kolo2"
         app:layout_constraintBottom_toTopOf="@+id/informacja"
         app:layout_constraintEnd_toStartOf="@+id/informacja"
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8"></ImageView>
+        app:layout_constraintVertical_bias="0.8" />
 
     <ImageView
         android:id="@+id/kolotla10"
         android:layout_width="400dp"
         android:layout_height="400dp"
+        android:importantForAccessibility="no"
         android:src="@drawable/kolo2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/informacja"
-        app:layout_constraintVertical_bias="0.35000002"></ImageView>
+        app:layout_constraintVertical_bias="0.35000002" />
 
     <TextView
         android:id="@+id/informacja"
@@ -49,11 +52,11 @@
         android:layout_marginHorizontal="20dp"
         android:gravity="center"
         android:text="@string/infoOKartach"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/guzikWroc2"></TextView>
+        app:layout_constraintTop_toBottomOf="@+id/guzikWroc2" />
 
     <ImageButton
         android:id="@+id/guzikWroc2"
@@ -62,9 +65,10 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:background="@android:color/transparent"
+        android:importantForAccessibility="no"
         android:scaleType="fitXY"
         android:src="@drawable/iks"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></ImageButton>
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
