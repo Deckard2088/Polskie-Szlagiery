@@ -15,4 +15,11 @@
 
     Na dzień 26.08.2024 talia ma 76 kart, lecz niewykluczone, że w przyszłości zostanie wzbogacona o
     kolejne utwory.</string>
+    <string name="samodzielny_fanowski_dodatek_do_gry_hitster">Samodzielny Fanowski Dodatek Do Gry HITSTER</string>
+    <string name="pobierz_plik_z_kartami">POBIERZ PLIK Z KARTAMI</string>
+    <string name="zasady_gry">ZASADY GRY</string>
+    <string name="graj">GRAJ</string>
+    <string name="INFO">/?</string>
+    <string name="spotify_free">Spotify Free</string>
+    <string name="spotify_premium">Spotify Premium</string>
 </resources>
