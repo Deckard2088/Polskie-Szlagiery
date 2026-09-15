@@ -2,7 +2,7 @@ package pl.dejwik.myapplication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import pl.dejwik.myapplication.databinding.ActivityInformacjaBinding
+import pl.dejwik.myapplication.databinding.ActivityInformationBinding
 
 /**
  * Information activity
@@ -12,7 +12,7 @@ import pl.dejwik.myapplication.databinding.ActivityInformacjaBinding
  * @constructor Creates a new InformationActivity
  */
 class InformationActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityInformacjaBinding
+    private lateinit var binding: ActivityInformationBinding
 
     /**
      * On create
@@ -22,7 +22,7 @@ class InformationActivity : AppCompatActivity() {
      * @param savedInstanceState the saved instance state
      */
     override fun onCreate(savedInstanceState: Bundle?) {
-        binding = ActivityInformacjaBinding.inflate(layoutInflater)
+        binding = ActivityInformationBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 

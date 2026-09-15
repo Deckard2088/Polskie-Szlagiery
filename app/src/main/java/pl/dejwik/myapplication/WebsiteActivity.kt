@@ -4,7 +4,7 @@ import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.KeyEvent
-import pl.dejwik.myapplication.databinding.ActivityStronaBinding
+import pl.dejwik.myapplication.databinding.ActivityWebsiteBinding
 import android.webkit.WebViewClient
 import android.webkit.WebView
 
@@ -45,7 +45,7 @@ class MyWebViewClient: WebViewClient(){
  * @constructor Creates a new StronaActivity
  */
 class WebsiteActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityStronaBinding
+    private lateinit var binding: ActivityWebsiteBinding
 
     /**
      * On create
@@ -62,7 +62,7 @@ class WebsiteActivity : AppCompatActivity() {
      */
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
-        binding = ActivityStronaBinding.inflate(layoutInflater)
+        binding = ActivityWebsiteBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 

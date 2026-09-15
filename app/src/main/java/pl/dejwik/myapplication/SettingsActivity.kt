@@ -2,10 +2,7 @@ package pl.dejwik.myapplication
 
 import android.content.Intent
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import pl.dejwik.myapplication.databinding.ActivitySettingsBinding
 
 class SettingsActivity : AppCompatActivity() {
