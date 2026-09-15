@@ -29,23 +29,23 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-        binding.guzikZKartami.setOnClickListener(){
+        binding.cardsButton.setOnClickListener(){
             val browserIntent = Intent(Intent.ACTION_VIEW,
                 "http://polskieszlagiery.ugu.pl/polskie_szlagiery_karty.pdf".toUri())
             startActivity(browserIntent)
         }
 
-        binding.guzikDoZasad.setOnClickListener(){
+        binding.rulesButton.setOnClickListener(){
             //val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://hitstergame.com/pl-pl/"))
             //startActivity(browserIntent)
             startActivity(Intent(applicationContext, StronaActivity::class.java))
         }
 
-        binding.guzikDoGry.setOnClickListener(){
+        binding.playButton.setOnClickListener(){
             startActivity(Intent(applicationContext, GrajActivity::class.java))
         }
 
-        binding.guzikDoInfo.setOnClickListener(){
+        binding.infoButton.setOnClickListener(){
             startActivity(Intent(applicationContext, InformacjaActivity::class.java))
         }
 
