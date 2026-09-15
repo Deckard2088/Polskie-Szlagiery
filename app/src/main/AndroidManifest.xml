@@ -28,16 +28,16 @@
             android:name=".SpotPremActivity"
             android:exported="false" />
         <activity
-            android:name=".InformacjaActivity"
+            android:name=".InformationActivity"
             android:exported="false" />
         <activity
             android:name=".SpotFreeActivity"
             android:exported="false" />
         <activity
-            android:name=".StronaActivity"
+            android:name=".WebsiteActivity"
             android:exported="false" />
         <activity
-            android:name=".GrajActivity"
+            android:name=".PlayActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -48,6 +48,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>

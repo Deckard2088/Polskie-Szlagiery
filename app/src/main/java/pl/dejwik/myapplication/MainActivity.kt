@@ -36,17 +36,15 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.rulesButton.setOnClickListener(){
-            //val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://hitstergame.com/pl-pl/"))
-            //startActivity(browserIntent)
-            startActivity(Intent(applicationContext, StronaActivity::class.java))
+            startActivity(Intent(applicationContext, WebsiteActivity::class.java))
         }
 
         binding.playButton.setOnClickListener(){
-            startActivity(Intent(applicationContext, GrajActivity::class.java))
+            startActivity(Intent(applicationContext, PlayActivity::class.java))
         }
 
         binding.infoButton.setOnClickListener(){
-            startActivity(Intent(applicationContext, InformacjaActivity::class.java))
+            startActivity(Intent(applicationContext, SettingsActivity::class.java))
         }
 
     }

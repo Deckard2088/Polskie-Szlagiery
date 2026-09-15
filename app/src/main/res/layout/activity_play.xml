@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GrajActivity"
+    tools:context=".PlayActivity"
     android:background="@color/jasny_niebieski"
     android:orientation="vertical">
 
@@ -58,7 +58,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/guzikWroc" />
+        app:layout_constraintTop_toBottomOf="@+id/exit_from_pa" />
 
     <Button
         android:id="@+id/buttonSF"
@@ -88,7 +88,7 @@
         app:layout_constraintTop_toBottomOf="@+id/buttonSF" />
 
     <ImageButton
-        android:id="@+id/guzikWroc"
+        android:id="@+id/exit_from_pa"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="8dp"
