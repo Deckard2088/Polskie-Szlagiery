@@ -64,7 +64,7 @@
         android:id="@+id/tytul"
         android:layout_width="300dp"
         android:layout_height="180dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="32dp"
         android:importantForAccessibility="no"
         android:src="@drawable/tytul"
         app:layout_constraintEnd_toEndOf="parent"

@@ -5,6 +5,11 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import pl.dejwik.myapplication.databinding.ActivitySettingsBinding
 
+/**
+ * Settings activity
+ *
+ * @constructor Creates a new SettingsActivity
+ */
 class SettingsActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySettingsBinding
 
